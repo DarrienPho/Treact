@@ -228,7 +228,7 @@ Burger Menu
   color: rgb(26, 32, 44);
 }
 
-.menu__list:hover{
+.menu__link:hover{
   text-underline-offset: 6px;
   text-decoration-thickness: 2px;
   color: #6415ff;
@@ -261,6 +261,20 @@ Burger Menu
   font-weight: 700;
   max-width: 135px;
   text-decoration: none;
+}
+
+.signup__menu {
+  color: white;
+}
+.signup__menu:hover {
+  text-decoration: none;
+  color:white;
+}
+
+
+.menu__signup:hover {
+  background-color: #4527ad;
+  transition: all 300ms ease;
 }
 
 /* 
