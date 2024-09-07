@@ -1745,9 +1745,11 @@ SMALL PHONES, LARGE SMARTPHONES
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
   .footer__columns {
-    width: 20%;
+    width: calc(100%/3);
     text-align: center;
+    align-content: center;
   }
 }
