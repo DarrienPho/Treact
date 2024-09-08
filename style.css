@@ -1287,13 +1287,12 @@ FOOTER
 .footer__contents {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: -48px;
 }
 
 .footer__columns {
   margin-top: 48px;
-  width: auto;
+  width: 20%;
 }
 
 .footer__links {
@@ -1751,5 +1750,9 @@ SMALL PHONES, LARGE SMARTPHONES
     width: calc(100%/3);
     text-align: center;
     align-content: center;
+  }
+  .footer__contents {
+    display: flex;
+    justify-content: center;
   }
 }
